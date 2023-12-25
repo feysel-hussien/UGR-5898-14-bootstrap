@@ -1,27 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>my website</title>
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/main.css">
 </head>
-<header>
-    <img style="text-align:left" width="200" height="100" src="images/mylogo.jpg">
-    <h1 style="text-align:center" >Welcome To My Website</h1>
-<h2 style="text-align:center;">I am feysel and i created this website to share my academic journey, extracurricular activities, hobbies and so on. I hope it gives you a glimpse into my life and aspirations
-    <hr></h2></header>
-<body>
-<img width="600" height="420" src="images/logo.jpg">
-<h3>Hello. I'm feysel hussien. Student in Addis ababa university. 3rd year in software engineering feild. This is my personal website. The page provides a brief overview of who I am and what I'm all about. It features a welcoming message, a glimpse into my hobbies, and a snapshot of my achievements and many more.</h3>
-</body>
-<footer>
-    <hr>
-    <div style="text-align:center" class="navbar">
+<style>
+     .navbar :hover{
+        color: brown;
+    }
+</style>
 
-        <a href="personal%20website.html" class="active">Home Page</a>
-        <a href="hobbies.html">Hobbies</a>
-        <a href="achievments.html">Achievment</a>
-        <a href="place.html">Place Visited</a>
-        <a href="contact.html">Contact</a>
+<body>
+<section class="bg-warning">
+    <header class="container-fluid mx-auto text-center mt-3">
+        <div class="row">
+            <div class="col">
+                <img class="img-fluid rounded-circle w-25" src="images/mylogo.jpg" alt="Logo">
+                <h1 class="display-4">Welcome To My Website</h1>
+                <h2 class="lead">I am feysel, and I created this website to share my academic journey, extracurricular
+                    activities, hobbies, and more. I hope it gives you a glimpse into my life and aspirations.</h2>
+                <hr class="my-4">
+            </div>
+        </div>
+    </header>
+</section>
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="">
+                <img class="img-fluid rounded-circle w-50" src="images/logo.jpg" alt="My Picture">
+            </div>
+            <div class="">
+                <h3>Hello. I'm feysel hussien. Student at Addis Ababa University. 3rd year in the software engineering
+                    field. This is my personal website. The page provides a brief overview of who I am and what I'm all
+                    about. It features a welcoming message, a glimpse into my hobbies, and a snapshot of my achievements
+                    and more.</h3>
+            </div>
+        </div>
     </div>
-</footer>
-</html>
+
+    <footer class="container-fluid flex text-center text-dark bg-warning mx-auto mt-3">
+        <div class="row">
+            <div class="col">
+                <hr class="my-4">
+                <div class="navbar text-dark">
+                    <a href="personal.html" class="navbar:hover bg-info navbar-brand active bg-info">Home Page</a>
+                    <a href="hobbies.html" class="bg-info:hover navbar-brand">Hobbies</a>
+                    <a href="achievments.html" class="bg-info:hover navbar-brand">Achievements</a>
+                    <a href="place.html" class="bg-info:hover navbar-brand">Place Visited</a>
+                    <a href="contact.html" class="bg-info:hover navbar-brand">Contact</a>
+                </div>
+                <p class="text-muted text-center mt-3">© 2023</p>
+                <p class="text-muted text-center">Any feedback?</p>
+            </div>
+        </div>
+    </footer>
