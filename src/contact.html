@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>contact</title>
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .navbar :hover{
+            color: blueviolet;
+
+        }
+    </style>
+
 </head>
-<header>
-  <h1 style="text-align:center">CONTACT ME  </h1sty>
-  <hr>
 
-</header>
 <body>
-<h2 style="text-align:center">CONTACT DETAILS</h2>
-<li id="1"></li>
-<h3>hussienfeysel@gmail.com</h3>
-<li id="2"></li>
-<h3>Phone-no > 0970753379 </h3>
-<li id="3"></li>
-<h3>Instagram-@fe_logar74</h3>
-<li id="4"></li>
-<h3>Telegram-@manre74</h3>
-</body>
-<footer>
-    <hr>
-    <div style="text-align:center" class="navbar">
 
-        <a href="personal%20website.html" >Home Page</a>
-        <a href="hobbies.html"  >Hobbies</a>
-        <a href="achievments.html" >Achievment</a>
-        <a href="place.html">Place Visited</a>
-        <a href="contact.html" class="active" >Contact</a>
+    <header class="header text-center bg-warning">
+        <h1 class="header__logo">CONTACT ME </h1>
+        <hr class="bg-dark">
+    </header>
+
+    <div class="container mt-4">
+        <h2 class="logo text-center">CONTACT DETAILS</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <ul class="list-unstyled contact-details">
+                    <li class="contact-details__item"><i class="fas fa-envelope"></i>
+                        <h3>hussienfeysel@gmail.com</h3>
+                    </li>
+                    <li class="contact-details__item"><i class="fas fa-phone"></i>
+                        <h3>Phone-no: +251970753379</h3>
+                    </li>
+                    <li class="contact-details__item"><i class="fab fa-instagram"></i>
+                        <h3>Instagram- <a href="https://www.instagram.com/fe_logar74/" target="_blank">@fe_logar74</a></h3>
+                    </li>
+                    <li class="contact-details__item"><i class="fab fa-telegram"></i>
+                        <h3>Telegram-@manre74</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-</footer>
-</html>
+    <footer class="container-fluid flex text-center text-dark bg-warning mx-auto mt-3">
+        <div class="row">
+            <div class="col">
+                <hr class="my-4">
+                <div class="navbar text-dark">
+                    <a href="personal.html" class="navbar:hover  navbar-brand ">Home Page</a>
+                    <a href="hobbies.html" class="bg-info:hover navbar-brand">Hobbies</a>
+                    <a href="achievments.html" class="bg-info:hover navbar-brand">Achievements</a>
+                    <a href="place.html" class="bg-info:hover navbar-brand">Place Visited</a>
+                    <a href="contact.html" class="bg-info:hover navbar-brand active bg-info">Contact</a>
+                </div>
+                <p class="text-muted text-center mt-3">© 2023</p>
+                <p class="text-muted text-center">Any feedback?</p>
+            </div>
+        </div>
+    </footer>
